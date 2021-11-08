@@ -1,0 +1,11 @@
+1. here we store the linux command line I have used 
+1. move files to another director: pwd first in command to get the full directory you want to move. Then use cd to enter the place the file locating 
+  then use mv "file"
+
+    t.e.x  cp 1.\ SQL、怎么在不同组内排序.ipynb /c/Users/zhuan/mySqlPractice/
+ here we copy the file to another directory 
+
+2. touch jjj.txt # will create a new text if it does not exsit 
+   nano jjj.txt # will open a txt editor. we could write notes here. 
+
+   when you have done or want to exit press ctrl+X then it will ask you to save the modify 
