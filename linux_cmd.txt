@@ -29,4 +29,9 @@ but when we do changes in local huan branch we do not use git push --upstream re
 we do git merge locally first to merge huan branch change to be local main branch then git push in local main. it will by default to push changes 
 to remote main 
 
+4. different git merge 
+git merge main -- call this at local huan branch. the change we did in huan cannot be merged to main 
 
+git merge huan -- call this at local main branch. it works. local main will be updated 
+
+git merge huan -- call this at local huan branch? 
