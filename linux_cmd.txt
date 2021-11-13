@@ -3,9 +3,30 @@
   then use mv "file"
 
     t.e.x  cp 1.\ SQL、怎么在不同组内排序.ipynb /c/Users/zhuan/mySqlPractice/
- here we copy the file to another directory 
+ here we copy the file to another directory t.x.e mv filename /c/Users/zhuan/mySqlPractice/
+then it will move or update the files 
 
 2. touch jjj.txt # will create a new text if it does not exsit 
    nano jjj.txt # will open a txt editor. we could write notes here. 
 
    when you have done or want to exit press ctrl+X then it will ask you to save the modify 
+3. git merge will do forward merge by default so it will only merge sub brach's change to main and 
+it does not matter we call this git merge in main branch or huan branch huan is the new brach we use checkout to create 
+usually we could keep main branch unchanged and only do our changes in huan branch and when it is ready we use git merge to merge our changes from huan to main
+
+if you .... it will create a merge commit. 
+
+4. so if you do you changes in main branch directly then you huan branch will not be updated with this change you did in main branch 
+if you want to sync your huan branch then you need to use git pull remote_name branch_name after you have git push you change from main to remote main
+the remote_name is called origin 
+so we use:
+git pull origin main 
+since we only have one remote branch it is called main. which is default tracking local main branch 
+so in local main branch we do not give the detail of remote_name, branch_name
+we use git pull directly to sync local main to be same with remote main 
+but in huan branch we do not create this huan remote branch for tracking local huan's change so we use remote main to sync local huan branch 
+but when we do changes in local huan branch we do not use git push --upstream remote_name branch_name to do this kind of oush 
+we do git merge locally first to merge huan branch change to be local main branch then git push in local main. it will by default to push changes 
+to remote main 
+
+
