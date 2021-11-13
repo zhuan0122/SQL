@@ -37,3 +37,14 @@ git merge huan -- call this at local main branch. it works. local main will be u
 git merge huan -- call this at local huan branch? no changes in local main 
 
 git merge main -- call this at local main branch? no changes in local main .
+
+
+5. so we only use call git merge huan at local main. this will merge huan'change to be main branch and this is called forward merge 
+this is very clean merge we also can call git merge -d huan then it will delete this temporary working branch huan after merge the changes to local main branch 
+
+
+6. git status -- call this in any branches then it will show if we have make changes in this local branch files, then if we did then we need to use 
+git add. then git commit -m 'comments' to commit our changes in this local branch then see if it is a local main or not to see if we need to call 
+git merge sub_branch_name to merge our change to local main then call git push from local main branch to push our changes to remote main 
+
+
