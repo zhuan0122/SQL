@@ -48,3 +48,6 @@ git add. then git commit -m 'comments' to commit our changes in this local branc
 git merge sub_branch_name to merge our change to local main then call git push from local main branch to push our changes to remote main 
 
 
+7. it seems git push only will update remote main if we call git push at local main after calling git merge huan at local main when we did some changes in local huan branch
+
+if i did changes in local huan branch then git push origin main at local huan directly it will not update remote main files 
