@@ -34,4 +34,6 @@ git merge main -- call this at local huan branch. the change we did in huan cann
 
 git merge huan -- call this at local main branch. it works. local main will be updated 
 
-git merge huan -- call this at local huan branch? 
+git merge huan -- call this at local huan branch? no changes in local main 
+
+git merge main -- call this at local main branch? .
