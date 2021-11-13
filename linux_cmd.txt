@@ -10,7 +10,7 @@ then it will move or update the files
    nano jjj.txt # will open a txt editor. we could write notes here. 
 
    when you have done or want to exit press ctrl+X then it will ask you to save the modify 
-3. git merge will do forward merge by default so it will only merge sub brach's change to main and 
+3. git merge branch_name(we call git merge huan in local main branch then huan's change will be merged to main branch) will do forward merge by default so it will only merge sub brach's change to main and 
 it does not matter we call this git merge in main branch or huan branch huan is the new brach we use checkout to create 
 usually we could keep main branch unchanged and only do our changes in huan branch and when it is ready we use git merge to merge our changes from huan to main
 
