@@ -16,6 +16,10 @@ usually we could keep main branch unchanged and only do our changes in huan bran
 
 if you .... it will create a merge commit. 
 
+3.2 how to copy files to a file or a folder:
+cp file.txt /backup
+
+
 4. so if you do you changes in main branch directly then you huan branch will not be updated with this change you did in main branch 
 if you want to sync your huan branch then you need to use git pull remote_name branch_name after you have git push you change from main to remote main
 the remote_name is called origin 
@@ -57,3 +61,17 @@ if i did changes in local huan branch then git push origin main at local huan di
 new features then git merge feature_branch at local main. 
 But if we have created this fearure branch then we still do some changes in local main then how to merge the feature branch to the main branch and keep the new commit you do in the base branch? 
 does this mean? if I call git merge feature_branch at local main it will remove the change we did in main?
+
+9. C# 
+main method: https://www.geeksforgeeks.org/main-method-in-c-sharp/
+Propertities: https://www.geeksforgeeks.org/c-sharp-properties/
+.net framework: https://www.geeksforgeeks.org/c-sharp-net-framework-basic-architecture-component-stack/
+Array: https://www.geeksforgeeks.org/c-sharp-arrays/?ref=lbp
+constructor: https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/instance-constructors
+static class and static members: https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/static-classes-and-static-class-members
+feild: https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/fields
+Net: https://docs.microsoft.com/en-us/dotnet/core/introduction
+Attributes: https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/attributes/accessing-attributes-by-using-reflection
+Polynophsim: https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/versioning-with-the-override-and-new-keywords
+https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/object-oriented/polymorphism
+https://www.c-sharpcorner.com/UploadFile/ff2f08/understanding-polymorphism-in-C-Sharp/
